@@ -50,3 +50,16 @@ a {
     margin: auto;
     text-align: right;
 }
+
+table.screenshots {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+table.screenshots td {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
