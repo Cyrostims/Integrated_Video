@@ -1,0 +1,43 @@
+<!Doctype html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        video {
+            max-width: 50vw;
+            max-height: 50vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <h1> Video Here! </h1>
+        <video loop autoplay muted controls="controls">
+        <source src="video/BehindTheCurtain.mp4"  type="video/mp4" />
+        <track kind="captions" src="video/captions.vtt" srclang="en" />
+        </video><br>
+
+
+
+        <h3> Subscribe Here</h3>
+        <form>
+            <table class="subscribeForm">
+                <tr>
+                    <td><label for="subName">Full name: </label></td>
+                    <td><input type="text" id="subName" name="subName"></td>
+                </tr>
+                <tr>
+                    <td><label for="subEmail">Email: </label></td>
+                    <td><input type="text" id="subEmail" name="subEmail"></td>
+                </tr>
+            </table>
+            <a href="thanks.html"><button type="button">Submit</button></a>
+
+            <!-- <input type="submit" value="Submit"> -->
+        </form>
+    </div>
+</body>

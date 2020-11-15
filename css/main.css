@@ -1,0 +1,52 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+
+body {
+    background-color: darkgrey;
+    color: black;
+    font-weight: 1.5;
+    font-size: 1.5em;
+    float: center;
+    padding-bottom: 4em;
+}
+
+article#items {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+a {
+    color: darkblue;
+}
+
+.footer {
+    color: #777;
+    background-color: #222;
+    height: 4em;
+    padding-left: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+.mainContainer {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.subscribeForm {
+    margin: auto;
+    text-align: right;
+}

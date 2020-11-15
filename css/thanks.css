@@ -1,0 +1,39 @@
+/* #thanksText {
+    background-color: blue;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+} */
+
+#thanksText {
+    position: absolute;
+    background: grey;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+#confettiWrapper {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+/* #confettiWrapper {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+} */
